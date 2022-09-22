@@ -70,6 +70,9 @@
             </table>
             
         </form>
+        
+         <p><a href="Upload.jsp"> Insert Profile Photo</a></p>
+         
         <p><a href="ViewStudent">View Student</a></p>
         
         <p><a href="home.jsp"> Home</a></p>

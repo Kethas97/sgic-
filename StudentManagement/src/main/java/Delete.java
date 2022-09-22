@@ -53,6 +53,7 @@ public class Delete extends HttpServlet {
 	             row = pst.executeUpdate();
 	            
 	             out.println("<font color='green'>  Record Deletedddddd   </font><br><br>");
+	             out.println("<td>"  + "<a href='ViewStudent'> View Student </a>" + "</td><br><br>");
 	             out.println("<td>"  + "<a href='ViewResults'> View Results </a>" + "</td><br><br>");
 	             out.println("<td>"  + "<a href='home.jsp'> Home</a>" + "</td>");
 	            

@@ -67,6 +67,8 @@ public class Student extends HttpServlet {
             row = pst.executeUpdate();
             
             out.println("<font color='green'>  Record Addedddd   </font><br><br>");
+            out.println("<td>"  + "<a href='Upload.jsp'> Insert Profile Photo </a>" + "</td> <br><br>");
+           
             out.println("<td>"  + "<a href='ViewStudent'> View Student </a>" + "</td>");
             out.println("<td>"  + "<a href='home.jsp'> Home</a>" + "</td>");
             

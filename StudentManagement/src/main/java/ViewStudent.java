@@ -62,6 +62,7 @@ public class ViewStudent extends HttpServlet {
             out.println("<td> Grade </td>");
             out.println("<td> Edit </td>");
             out.println("<td> Delete </td>");
+            out.println("<td> Photo </td>");
             
             out.println("</tr>");
             
@@ -77,6 +78,8 @@ public class ViewStudent extends HttpServlet {
              
              out.println("<td>"  + "<a href='EditReturn?StudentID=" +  rs.getString("StudentID")  + "'> Edit </a>" + "</td>");
              out.println("<td>"  + "<a href='Delete?id=" +  rs.getString("StudentID")  + "'> Delete </a>" + "</td>");
+             out.println("<td>"  + "<a href='Photo?StudentID=" +  rs.getString("StudentID")  + "'> Show </a>" + "</td>");
+             
              out.println("</tr>");
              
             }

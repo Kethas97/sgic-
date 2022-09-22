@@ -6,11 +6,14 @@ public class Students {
 	private String Address;
 	private String Gender;
 	private String Grade;
-
+	private String base64Image;
+	
 	public Students() {
 		super();
 	}
-	public Students(String studentID, String firstname, String lastname, String address, String gender, String grade) {
+
+	public Students(String studentID, String firstname, String lastname, String address, String gender, String grade,
+			String base64Image) {
 		super();
 		StudentID = studentID;
 		Firstname = firstname;
@@ -18,6 +21,14 @@ public class Students {
 		Address = address;
 		Gender = gender;
 		Grade = grade;
+		this.base64Image = base64Image;
+	}
+
+	public String getBase64Image() {
+		return base64Image;
+	}
+	public void setBase64Image(String base64Image) {
+		this.base64Image = base64Image;
 	}
 	public String getStudentID() {
 		return StudentID;
